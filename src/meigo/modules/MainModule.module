@@ -1,6 +1,28 @@
 {
   "props": [],
   "components": {
+    "fileChooserAlt": {
+      "type": "script\\FileChooserScript",
+      "x": 608.0,
+      "y": 432.0,
+      "props": {
+        "filterName": "Все файлы",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    },
+    "dirChooser": {
+      "type": "script\\DirectoryChooserScript",
+      "x": 240.0,
+      "y": 352.0,
+      "props": {
+        "title": "ПАПКА ДЛЯ СОХРАНЕНИЯ!!!",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    },
     "fileChooser": {
       "type": "script\\FileChooserScript",
       "x": 624,
