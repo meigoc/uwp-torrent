@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472" prefWidth="736" styleClass="">
+  <children>
+    <TableView AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="54" editable="false" fixedCellSize="-1" focusTraversable="true" id="table" layoutX="0" layoutY="54" opacity="0.8" prefHeight="418" prefWidth="736" styleClass="table-view " tableMenuButtonVisible="false">
+      <placeholder>
+        <Label/>
+      </placeholder>
+      <columnResizePolicy xmlns:fx="http://javafx.com/fxml">
+        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+      </columnResizePolicy>
+      <columns>
+        <TableColumn id="id" maxWidth="5000" minWidth="10" prefWidth="245" resizable="true" sortable="false" style="" text="Id" visible="true"/>
+        <TableColumn id="name" maxWidth="5000" minWidth="10" prefWidth="245" resizable="true" sortable="false" style="" text="Name" visible="true"/>
+        <TableColumn id="value" maxWidth="5000" minWidth="10" prefWidth="244" resizable="true" sortable="false" style="" text="Value" visible="true"/>
+      </columns>
+    </TableView>
+    <Data cursor="DEFAULT" enabled="1" id="data-table" visible="1"/>
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="29" prefWidth="736" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="16" id="image" layoutX="7" layoutY="7" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/icons/window16.png" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="29" layoutY="5" prefHeight="20" prefWidth="100" styleClass="label " text="uwp-torrent" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <FlowPane AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" alignment="TOP_RIGHT" columnHalignment="LEFT" focusTraversable="false" hgap="0" id="flowPane" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="HORIZONTAL" prefHeight="29" prefWidth="736" rowValignment="CENTER" styleClass="" vgap="5">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="27" id="image6" layoutX="601" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="45">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" hoverImage=".data/img/winMinimizeHover.png" id="data-image6" image=".data/img/winMinimize.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="27" id="image7" layoutX="646" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="45">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" hoverImage=".data/img/winMaximizeHover.png" id="data-image7" image=".data/img/winMaximize.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="27" id="image8" layoutX="691" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="45">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" hoverImage=".data/img/winCloseHover.png" id="data-image8" image=".data/img/winClose.png" visible="1"/>
+      </children>
+    </FlowPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-flowPane" visible="1"/>
+  </children>
+</AnchorPane>

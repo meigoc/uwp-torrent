@@ -1,0 +1,18 @@
+{
+  "props": [],
+  "components": {
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 624,
+      "y": 240,
+      "props": {
+        "initialFileName": "",
+        "filterName": "Торрент-файлы",
+        "filterExtensions": "*.torrent",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    }
+  }
+}
